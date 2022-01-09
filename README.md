@@ -1,12 +1,13 @@
 # flutter_structure
  
 A Flutter Project Using:
-[package:json_serializable][json_serializable]
-[package:freezed][freezed]
-[package:retrofit][retrofit]
-[package:dio][dio]
-[package:flutter_bloc][flutter_bloc]
-[package:reverpod][flutter_bloc]
+<br />
+- [package:json_serializable][json_serializable]
+- [package:freezed][freezed]
+- [package:retrofit][retrofit]
+- [package:dio][dio]
+- [package:flutter_bloc][flutter_bloc]
+- [package:reverpod][flutter_bloc]
 
 
 
