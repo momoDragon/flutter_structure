@@ -2,7 +2,6 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_rebuilds/repositories/api/json_placeholder/models/user.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 
 class UserListTile extends StatefulWidget {
   final User user;
