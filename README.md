@@ -7,8 +7,7 @@ A Flutter Project Using:
 - [package:retrofit][retrofit]
 - [package:dio][dio]
 - [package:flutter_bloc][flutter_bloc]
-- [package:reverpod][flutter_bloc]
-
+- [package:riverpod][riverpod]
 
 
 [json_serializable]: https://pub.dev/packages/json_serializable
@@ -16,5 +15,5 @@ A Flutter Project Using:
 [retrofit]: https://pub.dev/packages/retrofit
 [dio]: https://pub.dev/packages/dio
 [flutter_bloc]: https://pub.dev/packages/flutter_bloc
-[reverpod]: https://pub.dev/packages/riverpod
+[riverpod]: https://pub.dev/packages/riverpod
 
