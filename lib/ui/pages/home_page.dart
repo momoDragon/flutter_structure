@@ -3,6 +3,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_rebuilds/blocs/get_users/get_users_cubit.dart';
 import 'package:flutter_rebuilds/providers.dart';
 import 'package:flutter_rebuilds/repositories/api/json_placeholder/models/user.dart';
+import 'package:flutter_rebuilds/repositories/api/json_placeholder/users/repository.dart';
 import 'package:flutter_rebuilds/ui/custom_widgets/user_list_tile.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
@@ -26,13 +27,14 @@ class _HomePageState extends ConsumerState<HomePage> {
   @override
   void initState() {
     _getUsersCubit =
-        GetUsersCubit(usersRepository: ref.read(usersRepositoryProvider))
+        GetUsersCubit(usersRepository: ref.read<UsersRepository>(usersRepositoryProvider))
           ..getUsers();
     super.initState();
   }
 
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Users'),
